@@ -30,11 +30,3 @@ var number7 = parseInt(prompt("Enter a number"));
 var number8 = parseInt(prompt("Enter another number"));
 var result = divide(number7, number8);
 alert(result);
-
-var divide = function(weight, height) {
-  return weight / (height*height/10000);
-};
-var w2 = parseInt(prompt("Enter your weight"));
-var h2 = parseInt(prompt("Enter your height"));
-alert(divide(w2, h2));
-alert(result);
